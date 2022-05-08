@@ -1,0 +1,134 @@
+header {
+    min-width: 150px;
+    height: 150px;
+}
+
+.logo {
+    width: 120px;
+    height: 103px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.main-eventos--text {
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 0;
+    height: 292px;
+}
+
+.main-eventos--image {
+    width: 226px;
+    height: 235px;
+}
+
+.main_blog-contSub {
+    width: 70%;
+    min-width: 169px;
+    max-width: 250px;
+    height: 314px;
+    margin: 10px 10px 0;
+    margin-bottom: 35px;
+}
+
+.blog-card--content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blog-card--content h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.blog-card--content button {
+    width: 145px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main_entidades-logos {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+}
+
+.entidad-image-container {
+    height: 85px;
+}
+
+.banco5 {
+    background-size: cover;
+}
+
+.container-1 {
+    width: 10%;
+    min-width: 10%;
+}
+
+.container-2 {
+    width: 20%;
+    min-width: 20%;
+    max-width: 100px;
+    height: 350px;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 174px;
+    height: 148px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.image-2 {
+    width: 115px;
+    height: 86px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.red-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.red-2 {
+    width: 35px;
+    height: 30px;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 1.1rem;
+}
