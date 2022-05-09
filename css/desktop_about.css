@@ -1,0 +1,156 @@
+header {
+    min-width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.logo {
+    width: 120px;
+    height: 103px;
+}
+
+.main_who {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main_who_container1 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 0;
+}
+
+.main_who_container2 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 0;
+}
+
+.main_history {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main_history--text {
+    width: 100%;
+    min-width: 100%;
+    max-width: 0px;
+}
+
+.slider {
+    width: 420px;
+    height: 400px;
+}
+
+.main_filosofy {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.main_filosofy--text {
+    width: 50%;
+    min-width: 50%;
+    max-width: 0;
+}
+
+.main_filosofy--img {
+    width: 400px;
+    height: 400px;
+}
+
+.main_proposito {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main_proposito--text {
+    width: 100%;
+    min-width: 100%;
+    max-width: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.negocio--img {
+    min-width: 220px;
+    max-width: 800px;
+    height: 900px;
+}
+
+.container-1 {
+    width: 10%;
+    min-width: 10%;
+}
+
+.container-2 {
+    width: 20%;
+    min-width: 20%;
+    max-width: 100px;
+    height: 350px;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 174px;
+    height: 148px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.image-2 {
+    width: 115px;
+    height: 86px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.red-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.red-2 {
+    width: 35px;
+    height: 30px;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 1.1rem;
+}

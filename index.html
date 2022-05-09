@@ -9,12 +9,25 @@
     <link rel="stylesheet" href="./css/phone_index.css">
     <link rel="stylesheet" href="./css/tablet_index.css" media="(min-width: 600px)">
     <link rel="stylesheet" href="./css/desktop_index.css" media="(min-width: 1024px)">
+    <script type="text/javascript" src="./js/nav-bar.js"></script>
     <link rel="icon" href="./images/icon_page.png">
     <title>Auteco | Sitio Oficial</title>
 </head>
 <body>
     <header>
-        <span class="logo"><a href=""></a></span>
+        <div id="mySidemenu" class="sidemenu">
+            <a href="javascript:void(0)" class="close" onclick="closeSM()">&times;</a>
+            <div class="sm-wrapper">
+                <p><a href="">MOTOS</a></p>
+                <p><a href="">CRÉDITO</a></p>
+                <p><a href="#contact">CONTACTO</a></p>
+                <p><a href="about_us.html">SOBRE NOSOTROS</a></p>
+            </div>
+        </div>
+        <div id="pg-content">
+            <div style="font-size: 30px; cursor: pointer; color:white" onclick="openSM()">&#9776</div>
+        </div>
+        <a href="index.html" class="logo"></a>
     </header>
     <main>
         <section class="hero">
@@ -34,10 +47,10 @@
                     <h2>MEGA EXPERIENCE 2022</h2><br>
                     <h3>Puerto Berrio</h3>
                     <p>Fecha: Sábado 23 de Abril<br>
-                        Lugar: Parque de la locomotora (Antioquia)<br>
-                        Hora: 9 a.m.</p><br>
+                        Lugar: Parque de La Locomotora (Antioquia)<br>
+                        Hora: 9:00 a.m.</p><br>
                     <h3>Cartagena</h3>
-                    <p>Fecha: Sábado 30 de abril<br>
+                    <p>Fecha: Sábado 30 de Abril<br>
                         Lugar: Centro comercial Los Ejecutivos<br>
                         Hora: 9:00 a.m.
                     </p>
@@ -105,9 +118,9 @@
             <div class="information-container">
                 <div class="container-1">
                     <h2>CONTACTO</h2>
-                    <P>Línea de Atención Gratuita<br>018000 520 090</P>
+                    <P>Línea de Atención Gratuita<br>01 8000 520 090</P>
                     <p>Correo Electrónico<br>servicioalcliente@auteco.com.co</p>
-                    <p>Linea ética<br>01 8007 52 22 22</p>
+                    <p>Linea ética<br>01 8007 522 222</p>
                 </div>
                 <div class="container-2">
                     <div class="container-2--title">
@@ -121,9 +134,9 @@
                 <div class="container-3">
                     <h2>REDES SOCIALES</h2><br>
                     <div class="redes-icon">
-                        <span class="red-1"><a href=""></a></span>
-                        <span class="red-2"><a href=""></a></span>
-                        <span class="red-3"><a href=""></a></span>
+                        <a class="red-1" href="https://www.facebook.com/autecomotos/" target="_blank"></a>
+                        <a class="red-2" href="https://twitter.com/autecomotos" target="_blank"></a>
+                        <a class="red-3" href="https://www.youtube.com/user/AutecoMotocicletas" target="_blank"></a>
                     </div>
                 </div>
             </div>
