@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/phone_credito.css">
+    <link rel="stylesheet" href="./css/tablet_credito.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="./css/desktop_credito.css" media="(min-width: 1024px)">
+    <script type="text/javascript" src="./js/nav-bar.js"></script>
+    <link rel="icon" href="./images/icon_page.png">
+    <title>Crédito Auteco</title>
+</head>
+<body>
+    <header>
+        <div id="mySidemenu" class="sidemenu">
+            <a href="javascript:void(0)" class="close" onclick="closeSM()">&times;</a>
+            <div class="sm-wrapper">
+                <p><a href="">MOTOS</a></p>
+                <p><a href="credito.html">CRÉDITO</a></p>
+                <p><a href="#contact">CONTACTO</a></p>
+                <p><a href="about_us.html">SOBRE NOSOTROS</a></p>
+            </div>
+        </div>
+        <div id="pg-content">
+            <div style="font-size: 30px; cursor: pointer; color:white" onclick="openSM()">&#9776</div>
+        </div>
+        <a href="index.html" class="logo"></a>
+    </header>
+    <main>
+        <section class="main-hero">
+            <h1>SOLICITA TU CRÉDITO</h1>
+            <P>Conoce la cuota mensual aproximada que podrías pagar por tu crédito y
+            las diferentes opciones de financiación.</P>
+        </section>
+        <section class="main-datos">
+            <div class="main-datos_moto">
+                <h2>Selecciona la moto que deseas</h2>
+                <div class="main-datos_moto--container">
+                    <div class="datos_moto_subcontainer">
+                        <form action="/action_page.php">
+                            <label for="marcas">Nuestras marcas</label><br>
+                            <select id="marcas" name="marcas">
+                                <option value="">Selecciona una marca</option>
+                                <option value="benelli">BENELLI</option>
+                                <option value="benelli-bike">BENELLI BIKE</option>
+                                <option value="ceronte">CERONTE</option>
+                                <option value="combat">COMBAT</option>
+                                <option value="dongfeng">DONGFENG</option>
+                                <option value="jac">JAC</option>
+                                <option value="kawasaki">KAWASAKI</option>
+                                <option value="kymco">KYMCO</option>
+                                <option value="piaggio">PIAGGIO</option>
+                                <option value="segway">SEGWAY</option>
+                                <option value="stark">STARK</option>
+                                <option value="starker">STARKER</option>
+                                <option value="super-soco">SUPER SOCO</option>
+                                <option value="velocifero">VELOCIFERO</option>
+                                <option value="victory">VICTORY</option>
+                                <option value="wolf">WOLF</option>
+                                <option value="zhidou">ZHIDOU</option>
+                            </select>
+                          </form>
+                    </div>
+                    <div class="datos_moto_subcontainer">
+                        <form action="/action_page.php">
+                            <label for="marcas">Modelos de moto</label><br>
+                            <select id="marcas" name="marcas">
+                              <option value="Selecciona">Selecciona una moto</option>
+                            </select>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="main-datos_cuota">
+                <div class="main-datos_cuota--container">
+                    <div class="datos_cuota_subcontainer">
+                        <form action="/action_page.php">
+                            <label for="costo">Cuota inicial</label><br>
+                            <input type="text" id="costo" name="costo" placeholder="Por ejemplo: $500.000">
+                          </form>
+                    </div>
+                    <div class="datos_cuota_subcontainer">
+                        <form action="/action_page.php">
+                            <label for="meses">Plazo para pagar</label><br>
+                            <select id="meses" name="meses">
+                                <option value="">Selecciona un plazo</option>
+                                <option value="3">3 meses</option>
+                                <option value="6">6 meses</option>
+                                <option value="12">12 meses (1 año)</option>
+                                <option value="24">24 meses (2 años)</option>
+                                <option value="36">36 meses (3 años)</option>
+                                <option value="48">48 meses (4 años)</option>
+                                <option value="60">60 meses (5 años)</option>
+                                <option value="72">72 meses (6 años)</option>
+                            </select>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="main-datos_personal">
+                <h2>Ingresa tus datos</h2>
+                <div class="main-datos_personal--container">
+                    <div class="datos_personal_subcontainer">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Número de identificación">
+                            <input type="text" placeholder="Nombre completo">
+                            <input type="text" placeholder="micorreo@gmail.com">
+                            <input type="text" placeholder="Celular">
+                            <input type="text" placeholder="Departamento">
+                            <input type="text" placeholder="Cuidad">
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="autorizacion-container">
+                <form action="/action_page.php" class="autorizacion-form">
+                    <input type="checkbox" id="autorizacion" name="autorizacion" value="Acepto">
+                    <label for="autorizacion" id="autorizacion-text"> Autorizo a Auteco Mobility S.A.S para que mis datos personales sean tratados conforme al manual interno de políticas y procedimientos de datos personales que se encuentra publicada en la página web <a href="https://mas.autecomobility.com/">www.autecomobility.com</a> , <a href="https://www.autecomobility.com/manual-de-politicas-y-procedimientos-de-datos?_ga=2.256193931.1074075641.1652666850-1859204028.1650746186">disponible aquí.</a> 
+            </div>
+            <div class="button-container">
+                <button class="button-calcular">CALCULA TU CUOTA MENSUAL</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer_information" id="contact">
+            <div class="information-container">
+                <div class="container-1">
+                    <h2>CONTACTO</h2>
+                    <P>Línea de Atención Gratuita<br>01 8000 520 090</P>
+                    <p>Correo Electrónico<br>servicioalcliente@auteco.com.co</p>
+                    <p>Linea ética<br>01 8007 522 222</p>
+                </div>
+                <div class="container-2">
+                    <div class="container-2--title">
+                        <h2>MEDIOS DE PAGO</h2>
+                    </div>
+                    <div class="container-2--images">
+                        <span class="image-1"></span>
+                        <span class="image-2"></span>
+                    </div>
+                </div>
+                <div class="container-3">
+                    <h2>REDES SOCIALES</h2><br>
+                    <div class="redes-icon">
+                        <a class="red-1" href="https://www.facebook.com/autecomotos/" target="_blank"></a>
+                        <a class="red-2" href="https://twitter.com/autecomotos" target="_blank"></a>
+                        <a class="red-3" href="https://www.youtube.com/user/AutecoMotocicletas" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer_final">
+            <p>®2022 AUTECO SAS, COLOMBIA, TODOS LOS DERECHOS RESERVADOS</p>
+        </section>
+    </footer>
+</body>
+</html>

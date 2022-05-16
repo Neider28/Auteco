@@ -1,0 +1,130 @@
+header {
+    min-width: 150px;
+    height: 150px;
+}
+
+.logo {
+    width: 120px;
+    height: 103px;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.main-datos {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.datos_moto_subcontainer select {
+    width: 190px;
+    height: 35px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.datos_cuota_subcontainer select {
+    width: 190px;
+    height: 35px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+#costo {
+    width: 190px;
+    height: 35px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.datos_personal_subcontainer input {
+    width: 232.94px;
+    height: 35px;
+    margin: 8px;
+    border: #919191 solid 1px;
+}
+
+.button-calcular {
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+::placeholder {
+    font-size: 1.1rem;
+    color:#201e1c;
+}
+
+.container-1 {
+    width: 10%;
+    min-width: 10%;
+}
+
+.container-2 {
+    width: 20%;
+    min-width: 20%;
+    max-width: 100px;
+    height: 350px;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 174px;
+    height: 148px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.image-2 {
+    width: 115px;
+    height: 86px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.red-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.red-2 {
+    width: 35px;
+    height: 30px;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 1.1rem;
+}

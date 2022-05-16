@@ -1,0 +1,238 @@
+.main-hero {
+    width: 100%;
+    min-width: 320px;
+    height: 300px;
+    padding-top: 95px;
+}
+
+.main-hero h1 {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: white;
+}
+
+.main-hero p {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.main-datos_moto {
+    text-align: left;
+}
+
+.main-datos_moto h2 {
+    font-size: 1.6rem;
+    color: #282623;
+    text-align: center;
+}
+
+.main-datos_moto--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.datos_moto_subcontainer {
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.datos_moto_subcontainer label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.datos_moto_subcontainer select {
+    width: 80%;
+    height: 35px;
+}
+
+.main-datos_cuota {
+    text-align: left;
+}
+
+.main-datos_cuota--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: solid 1px #999999;
+    box-shadow: 0 8px 10px rgba(17, 17, 17, 0.16);
+}
+
+.datos_cuota_subcontainer {
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.datos_cuota_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.datos_cuota_subcontainer select {
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.datos_cuota_subcontainer label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+#costo {
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.main-datos_personal--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: solid 1px #999999;
+    box-shadow: 0 8px 10px rgba(17, 17, 17, 0.16);
+}
+
+.main-datos_personal h2 {
+    font-size: 1.6rem;
+    color: #282623;
+}
+
+.datos_personal_subcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.datos_personal_subcontainer input {
+    width: 212.94px;
+    height: 35px;
+    margin: 8px;
+    border: #919191 solid 1px;
+}
+
+.datos_personal_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.button-calcular {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#autorizacion {
+    width: 25px;
+    height: 25px;
+}
+
+#autorizacion-text {
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.information-container {
+    display: flex;
+}
+
+.container-1 {
+    width: 20%;
+    min-width: 20%;
+    max-width: 100px;
+    height: 164px;
+}
+
+
+.container-1 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: normal;
+    font-size: 1.3rem;
+}
+
+.container-1 h2 {
+    margin-bottom: 0.5rem;
+}
+
+.container-2 {
+    width: 35%;
+    min-width: 25%;
+    max-width: 100px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 144px;
+    height: 118px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.image-2 {
+    width: 105px;
+    height: 76px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.container-3 {
+    width: 25%;
+    min-width: 25%;
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 0.9rem;
+}

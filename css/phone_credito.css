@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange: #F2AF29;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --dark-black: #000000;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100px;
+    height: 100px;
+    background: var(--dark-black);
+    border-bottom: solid 4px var(--orange);
+}
+
+.logo {
+    width: 101px;
+    height: 84px;
+    background-image: url("../images/logo_auteco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.sm-wrapper {
+    margin-top: 100px;
+}
+
+.sidemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F2AF29;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: auto 0;
+    transition: 0.3s;
+}
+
+.sidemenu p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.sidemenu .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 5rem;
+    margin-left: 20px;
+}
+
+.sm-wrapper a::after {
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    width: 0;
+    height: 30px;
+    background: var(--dark-black);
+    content: '';
+    transition: width 0.35s ease-in-out;
+}
+
+.sm-wrapper a:hover::after {
+    width: 10%;
+}
+
+.sm-wrapper a:hover {
+    padding-left: 64px;
+    color: white;
+    transition: 0.35s ease-in-out;
+}
+
+#pg-content {
+    transition: margin-left 0.5s;
+    padding: 0px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.main-hero {
+    width: 100%;
+    min-width: 320px;
+    height: 200px;
+    text-align: center;
+    padding-top: 75px;
+    background-image: url("../images/hero-credito.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-hero h1 {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.main-hero p {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main-datos {
+    width: 100%;
+    height: auto;
+}
+
+.main-datos_moto {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-datos_moto h2 {
+    font-size: 1.5rem;
+    color: #282623;
+}
+
+.main-datos_moto--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border: solid 1px #999999;
+    box-shadow: 0 8px 10px rgba(17, 17, 17, 0.16);
+}
+
+.datos_moto_subcontainer {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.datos_moto_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.datos_moto_subcontainer select {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.main-datos_cuota {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-datos_cuota--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border: solid 1px #999999;
+    box-shadow: 0 8px 10px rgba(17, 17, 17, 0.16);
+}
+
+.datos_cuota_subcontainer {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.datos_cuota_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.datos_cuota_subcontainer select {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    border: #919191 solid 1px;
+}
+
+.datos_moto_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+#costo {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 7px;
+    outline: none;
+    border: #919191 solid 1px;
+}
+
+.main-datos_personal {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-datos_personal--container {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: solid 1px #999999;
+    box-shadow: 0 8px 10px rgba(17, 17, 17, 0.16);
+}
+
+.main-datos_personal h2 {
+    font-size: 1.5rem;
+    color: #282623;
+}
+
+.datos_personal_subcontainer {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.datos_personal_subcontainer input {
+    width: 120px;
+    height: 30px;
+    margin: 8px;
+    padding-left: 7px;
+    border: #919191 solid 1px;
+    outline: none;
+}
+
+.datos_personal_subcontainer label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #201e1c;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-calcular {
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: var(--orange);
+    border-style: none;
+}
+
+.button-calcular:hover {
+    background-color: #000000;
+    color: #F2AF29;
+}
+
+.autorizacion-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.autorizacion-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+#autorizacion {
+    width: 20px;
+    height: 20px;
+}
+
+#autorizacion-text {
+    width: 220px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+a {
+    color: #000000;
+}
+
+::placeholder {
+    font-size: .9rem;
+    color:#201e1c;
+}
+
+.footer_information {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 30px;
+    background-color: var(--black);
+    border-top: solid 4px var(--orange);
+    border-bottom: solid 4px var(--orange);
+}
+
+.information-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.container-1 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 144px;
+    margin: 0 auto;
+    color: white;
+}
+
+.container-1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.information-container h2 {
+    margin-bottom: 5px;
+}
+
+.container-2 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+.image-1 {
+    width: 170px;
+    height: 144px;
+    margin: 0 auto;
+    background-image: url('../images/pagos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-2 {
+    width: 105px;
+    height: 76px;
+    margin: 0 auto;
+    background-image: url('../images/pago2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-3 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.redes-icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.red-1 {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    background-image: url('../images/icons/facebook.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red-2 {
+    width: 30px;
+    height: 25px;
+    margin-right: 15px;
+    background-image: url('../images/icons/twiter.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+    background-image: url('../images/icons/youtube.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_final {
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
