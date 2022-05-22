@@ -1,0 +1,216 @@
+header {
+    min-width: 150px;
+    height: 150px;
+}
+
+.logo {
+    width: 120px;
+    height: 103px;
+}
+
+ul.tabs li{
+	width: 25%;
+    height: 60px;
+}
+
+ul.tabs li a{
+    height: 60px;
+}
+
+.secciones article{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.moto-card {
+    width: 340px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.moto-card .moto-card--marca {
+    width: 100px;
+    height: 35px;
+}
+
+.moto-card--img {
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    z-index: 3;
+}
+
+.moto-card--description {
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    top: 190px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--orange);
+    z-index: 2;
+}
+
+.urbana2 {
+    width: 75%;
+    height: 180px;
+    top: 50px;
+    left: 40px;
+}
+
+.urbana3 {
+    width: 70%;
+    height: 150px;
+    top: 70px;
+    left: 50px;
+}
+
+.urbana4 {
+    width: 75%;
+    height: 190px;
+    top: 55px;
+    left: 40px;
+}
+
+.urbana5 {
+    width: 90%;
+    height: 220px;
+    top: 40px;
+    left: 20px;
+}
+
+.urbana6 {
+    width: 65%;
+    height: 190px;
+    top: 55px;
+    left: 55px;
+}
+
+.deportiva1 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 55px;
+}
+
+.deportiva2 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 65px;
+}
+
+.deportiva3 {
+    width: 55%;
+    height: 180px;
+    top: 50px;
+    left: 70px;
+}
+
+.deportiva4 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.deportiva5 {
+    width: 60%;
+    height: 180px;
+    top: 45px;
+    left: 60px;
+}
+
+.deportiva6 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 60px;
+}
+
+.automatica1 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.automatica2 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.automatica3 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.automatica4 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.automatica5 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 65px;
+}
+
+.automatica6 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.altagama1 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 55px;
+}
+
+.altagama2 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 60px;
+}
+
+.altagama3 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 65px;
+}
+
+.altagama4 {
+    width: 60%;
+    height: 180px;
+    top: 50px;
+    left: 55px;
+}
+
+.altagama5 {
+    width: 60%;
+    height: 180px;
+    top: 55px;
+    left: 60px;
+}
+
+.altagama6 {
+    width: 60%;
+    height: 180px;
+    top: 60px;
+    left: 60px;
+}

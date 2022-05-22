@@ -1,0 +1,488 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:root {
+    --orange: #F2AF29;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --dark-black: #000000;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100px;
+    height: 100px;
+    background: var(--dark-black);
+    border-bottom: solid 4px var(--orange);
+}
+
+.logo {
+    width: 101px;
+    height: 84px;
+    background-image: url("../images/logo_auteco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.sm-wrapper {
+    margin-top: 100px;
+    z-index: 5;
+}
+
+.sidemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background-color: #F2AF29;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin: auto 0;
+    transition: 0.3s;
+}
+
+.sidemenu p {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.sidemenu .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 5rem;
+    margin-left: 20px;
+}
+
+.sm-wrapper a::after {
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    width: 0;
+    height: 30px;
+    background: var(--dark-black);
+    content: '';
+    transition: width 0.35s ease-in-out;
+}
+
+.sm-wrapper a:hover::after {
+    width: 10%;
+}
+
+.sm-wrapper a:hover {
+    padding-left: 64px;
+    color: white;
+    transition: 0.35s ease-in-out;
+}
+
+#pg-content {
+    transition: margin-left 0.5s;
+    padding: 0px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+.wrap {
+	width: 1250px;
+	max-width: 90%;
+	margin: 30px auto;
+	box-shadow: 0 4px 8px rgba(24, 24, 24, 0.16);
+}
+
+ul.tabs {
+	width: 100%;
+	background: var(--dark-black);
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li {
+	width: 25%;
+}
+
+ul.tabs li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	padding: 20px 0px;
+}
+
+.active {
+	background: var(--orange);
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones {
+	width: 100%;
+	background: #fff;
+    padding-top: 10px;
+}
+
+.secciones article {
+	padding: 30px;
+}
+
+.secciones article p {
+	text-align: justify;
+}
+
+.moto-card {
+    width: 230px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 4px rgba(51, 51, 51, 0.16);
+    border-radius: 5px;
+}
+
+.moto-card .moto-card--marca {
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 3px;
+    background-color: var(--orange);
+    z-index: 3;
+}
+
+.moto-card--img {
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    z-index: 2;
+}
+
+.moto-card--description {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--orange);
+    z-index: 1;
+}
+
+.urbana1 {
+    background-image: url("../images/motos_urbanas/urbana1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.urbana2 {
+    background-image: url("../images/motos_urbanas/urbana2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20px;
+}
+
+.urbana3 {
+    background-image: url("../images/motos_urbanas/urbana3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20px;
+}
+
+.urbana4 {
+    background-image: url("../images/motos_urbanas/urbana4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20px;
+}
+
+.urbana5 {
+    width: 90%;
+    height: 220px;
+    background-image: url("../images/motos_urbanas/urbana5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 10px;
+    left: 15px;
+}
+
+.urbana6 {
+    width: 80%;
+    height: 170px;
+    background-image: url("../images/motos_urbanas/urbana6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 40px;
+}
+
+.deportiva1 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 30px;
+    background-image: url("../images/motos_deportivas/deportiva1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deportiva2 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 35px;
+    background-image: url("../images/motos_deportivas/deportiva2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deportiva3 {
+    width: 65%;
+    height: 140px;
+    top: 45px;
+    left: 40px;
+    background-image: url("../images/motos_deportivas/deportiva3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deportiva4 {
+    width: 75%;
+    height: 160px;
+    top: 45px;
+    left: 35px;
+    background-image: url("../images/motos_deportivas/deportiva4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deportiva5 {
+    width: 65%;
+    height: 140px;
+    top: 50px;
+    left: 45px;
+    background-image: url("../images/motos_deportivas/deportiva5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deportiva6 {
+    width: 70%;
+    height: 150px;
+    top: 45px;
+    left: 40px;
+    background-image: url("../images/motos_deportivas/deportiva6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica1 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 30px;
+    background-image: url("../images/motos_automaticas/automatica1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica2 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 35px;
+    background-image: url("../images/motos_automaticas/automatica2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica3 {
+    width: 65%;
+    height: 140px;
+    top: 45px;
+    left: 40px;
+    background-image: url("../images/motos_automaticas/automatica3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica4 {
+    width: 75%;
+    height: 160px;
+    top: 35px;
+    left: 35px;
+    background-image: url("../images/motos_automaticas/automatica4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica5 {
+    width: 65%;
+    height: 140px;
+    top: 50px;
+    left: 45px;
+    background-image: url("../images/motos_automaticas/automatica5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.automatica6 {
+    width: 70%;
+    height: 150px;
+    top: 45px;
+    left: 40px;
+    background-image: url("../images/motos_automaticas/automatica6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama1 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 40px;
+    background-image: url("../images/motos_altagama/altagama1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama2 {
+    width: 70%;
+    height: 150px;
+    top: 40px;
+    left: 35px;
+    background-image: url("../images/motos_altagama/altagama2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama3 {
+    width: 75%;
+    height: 160px;
+    top: 35px;
+    left: 35px;
+    background-image: url("../images/motos_altagama/altagama3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama4 {
+    width: 75%;
+    height: 160px;
+    top: 35px;
+    left: 35px;
+    background-image: url("../images/motos_altagama/altagama4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama5 {
+    width: 75%;
+    height: 160px;
+    top: 45px;
+    left: 35px;
+    background-image: url("../images/motos_altagama/altagama5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.altagama6 {
+    width: 75%;
+    height: 160px;
+    top: 45px;
+    left: 40px;
+    background-image: url("../images/motos_altagama/altagama6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.tabs li a {
+    padding: 15px 0px;
+}
+
+ul.tabs li a .tab-text {
+    display: none;
+}
+
+.secciones article {
+    padding: 10px;
+}

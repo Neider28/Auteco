@@ -1,0 +1,193 @@
+ul.tabs li{
+	width: 25%;
+    height: 50px;
+    flex-basis: 0;
+	flex-grow: 1;
+}
+
+ul.tabs li a{
+    height: 50px;
+}
+
+.secciones article{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.moto-card {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.moto-card .moto-card--marca {
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 3px;
+    background-color: var(--orange);
+    z-index: 1;
+}
+
+.moto-card--img {
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    z-index: 3;
+}
+
+.moto-card--description {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 130px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: var(--orange);
+    z-index: 2;
+}
+
+.urbana5 {
+    width: 90%;
+    height: 200px;
+    top: 10px;
+    left: 15px;
+}
+
+.urbana6 {
+    width: 70%;
+    height: 150px;
+    top: 35px;
+    left: 30px;
+}
+
+.deportiva1 {
+    width: 60%;
+    height: 140px;
+    top: 40px;
+    left: 40px;
+}
+
+.deportiva2 {
+    width: 62%;
+    height: 140px;
+    top: 40px;
+    left: 45px;
+}
+
+.deportiva3 {
+    width: 55%;
+    height: 120px;
+    top: 45px;
+    left: 45px;
+}
+
+.deportiva4 {
+    width: 65%;
+    height: 140px;
+    top: 45px;
+    left: 35px;
+}
+
+.deportiva5 {
+    width: 65%;
+    height: 140px;
+    top: 40px;
+    left: 45px;
+}
+
+.deportiva6 {
+    width: 60%;
+    height: 140px;
+    top: 40px;
+    left: 40px;
+}
+
+.automatica1 {
+    width: 65%;
+    height: 140px;
+    top: 35px;
+    left: 35px;
+}
+
+.automatica2 {
+    width: 70%;
+    height: 150px;
+    top: 35px;
+    left: 35px;
+}
+
+.automatica3 {
+    width: 65%;
+    height: 140px;
+    top: 40px;
+    left: 40px;
+}
+
+.automatica4 {
+    width: 70%;
+    height: 150px;
+    top: 35px;
+    left: 35px;
+}
+
+.automatica5 {
+    width: 60%;
+    height: 140px;
+    top: 40px;
+    left: 45px;
+}
+
+.automatica6 {
+    width: 63%;
+    height: 150px;
+    top: 40px;
+    left: 40px;
+}
+
+.altagama1 {
+    width: 63%;
+    height: 130px;
+    top: 40px;
+    left: 40px;
+}
+
+.altagama2 {
+    width: 70%;
+    height: 150px;
+    top: 35px;
+    left: 35px;
+}
+
+.altagama3 {
+    width: 70%;
+    height: 150px;
+    top: 30px;
+    left: 35px;
+}
+
+.altagama4 {
+    width: 65%;
+    height: 140px;
+    top: 40px;
+    left: 35px;
+}
+
+.altagama5 {
+    width: 65%;
+    height: 140px;
+    top: 45px;
+    left: 35px;
+}
+
+.altagama6 {
+    width: 70%;
+    height: 150px;
+    top: 45px;
+    left: 35px;
+}
