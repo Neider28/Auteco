@@ -15,6 +15,8 @@ ul.tabs li{
 
 ul.tabs li a{
     height: 60px;
+    font-size: 1.5rem;
+	padding: 22px 0px;
 }
 
 .secciones article{
@@ -63,18 +65,33 @@ ul.tabs li a{
     font-size: 2.3rem;
 }
 
-.moto-card--description .before-price {
-    text-align: center;
-    font-size: 1.9rem;
-    margin-bottom: 5px;
-    font-weight: 500;
-}
-
 .moto-card--description .price {
     margin: 0 auto;
     text-align: center;
     font-size: 1.9rem;
     font-weight: 500;
+}
+
+.moto-card--button button {
+    width: 145px;
+    height: 40px;
+    background-color: #faf8f7;
+    border-radius: 5px;
+    border-style: none;
+    border: solid 2px var(--orange);
+    box-shadow: 0px 8px 16px rgba(89, 73, 30, 0.16);
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.moto-card--button button span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 
 .urbana2 {
@@ -237,3 +254,57 @@ ul.tabs li a{
     top: 60px;
     left: 60px;
 }
+
+.container-1 {
+    width: 10%;
+    min-width: 10%;
+}
+
+.container-2 {
+    width: 20%;
+    min-width: 20%;
+    max-width: 100px;
+    height: 350px;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    width: 174px;
+    height: 148px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.image-2 {
+    width: 115px;
+    height: 86px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+.red-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.red-2 {
+    width: 35px;
+    height: 30px;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+

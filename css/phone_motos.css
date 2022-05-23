@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -157,18 +157,15 @@ ul.tabs li {
 ul.tabs li a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 0.8rem;
+    font-weight: 500;
 	text-align: center;
 	display: block;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
 
 .active {
 	background: var(--orange);
-}
-
-ul.tabs li a .tab-text {
-	margin-left: 8px;
 }
 
 .secciones {
@@ -187,7 +184,7 @@ ul.tabs li a .tab-text {
 
 .moto-card {
     width: 230px;
-    height: 300px;
+    height: 310px;
     position: relative;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -220,7 +217,7 @@ ul.tabs li a .tab-text {
 
 .moto-card--description {
     width: 100%;
-    height: 150px;
+    height: 160px;
     padding-top: 50px;
     position: absolute;
     top: 150px;
@@ -235,18 +232,50 @@ ul.tabs li a .tab-text {
     margin-bottom: 10px;
 }
 
-.moto-card--description .before-price {
-    text-align: center;
-    font-size: 1.6rem;
-    margin-bottom: 5px;
-    font-weight: 500;
-}
-
 .moto-card--description .price {
     margin: 0 auto;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+.moto-card--button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.moto-card--button button {
+    width: 145px;
+    height: 35px;
+    background-color: #faf8f7;
+    border-radius: 5px;
+    border-style: none;
+    border: solid 2px var(--orange);
+    box-shadow: 0px 8px 16px rgba(89, 73, 30, 0.16);
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.moto-card--button button:hover {
+    background-color: #000000;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.moto-card--button button span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../images/icons/Line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: text-bottom;
 }
 
 .urbana1 {
@@ -510,3 +539,137 @@ ul.tabs li a .tab-text {
 .secciones article {
     padding: 10px;
 }
+
+.footer_information {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 30px;
+    background-color: var(--black);
+    border-top: solid 4px var(--orange);
+    border-bottom: solid 4px var(--orange);
+}
+
+.information-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.container-1 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 144px;
+    margin: 0 auto;
+    color: white;
+}
+
+.container-1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.information-container h2 {
+    margin-bottom: 5px;
+}
+
+.container-2 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.container-2--images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+.image-1 {
+    width: 170px;
+    height: 144px;
+    margin: 0 auto;
+    background-image: url('../images/pagos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-2 {
+    width: 105px;
+    height: 76px;
+    margin: 0 auto;
+    background-image: url('../images/pago2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-3 {
+    width: 90%;
+    min-width: 90%;
+    max-width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.redes-icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.red-1 {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    background-image: url('../images/icons/facebook.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red-2 {
+    width: 30px;
+    height: 25px;
+    margin-right: 15px;
+    background-image: url('../images/icons/twiter.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red-3 {
+    width: 35px;
+    height: 25px;
+    background-image: url('../images/icons/youtube.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_final {
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_final p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

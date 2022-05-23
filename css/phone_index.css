@@ -346,6 +346,12 @@ main {
     vertical-align: text-bottom;
 }
 
+.blog-card--button button:hover {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
 .main_entidades {
     width: 100%;
     min-width: 320px;
