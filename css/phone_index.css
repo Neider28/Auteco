@@ -445,6 +445,11 @@ main {
     display: inline-block;
 }
 
+.information-container h2 {
+    font-size: 1.8rem;
+    margin: 0px;
+}
+
 .container-1 {
     width: 90%;
     min-width: 90%;
@@ -456,7 +461,12 @@ main {
 
 .container-1 p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
     line-height: normal;
+}
+
+.container-1 h2 {
+    margin-bottom: 0.5rem;
 }
 
 .container-2 {
@@ -473,7 +483,6 @@ main {
     width: 100%;
     height: auto;
     display: flex;
-    
 }
 
 .image-1 {

@@ -255,9 +255,17 @@ ul.tabs li a{
     left: 60px;
 }
 
+.information-container h2 {
+    font-size: 2rem;
+}
+
 .container-1 {
     width: 10%;
     min-width: 10%;
+}
+
+.container-1 p {
+    font-size: 1.2rem;
 }
 
 .container-2 {

@@ -21,6 +21,8 @@ h3 {
 p {
     font-size: 1.5rem;
     font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
 }
 
 .logo {
@@ -108,9 +110,24 @@ p {
     height: 900px;
 }
 
+.information-container h2 {
+    margin: 0px;
+    font-size: 2rem;
+}
+
 .container-1 {
     width: 10%;
     min-width: 10%;
+}
+
+.container-1 p {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: normal;
+}
+
+.container-1 h2 {
+    margin-bottom: 5px;
 }
 
 .container-2 {

@@ -24,18 +24,46 @@ p {
 
 .main_who {
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main_who_container1 {
+    line-height: 18px;
+}
+
+.main_who_container2 {
+    line-height: 18px;
 }
 
 .main_history {
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main_history--text {
+    line-height: 18px;
 }
 
 .main_filosofy {
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main_filosofy--text {
+    line-height: 18px;
 }
 
 .main_proposito {
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main_proposito--text {
+    line-height: 18px;
 }
 
 .container-1 {
@@ -86,6 +114,8 @@ p {
 
 .main_negocio {
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
     padding-top: 20px;
     border-bottom: solid 4px var(--orange);
 }

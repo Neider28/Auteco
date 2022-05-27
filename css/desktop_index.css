@@ -80,9 +80,22 @@ p {
     background-size: cover;
 }
 
+.information-container h2 {
+    margin: 0px;
+    font-size: 2rem;
+}
+
 .container-1 {
     width: 10%;
     min-width: 10%;
+}
+
+.container-1 p {
+    font-size: 1.2rem;
+}
+
+.container-1 h2 {
+    margin-bottom: 5px;
 }
 
 .container-2 {

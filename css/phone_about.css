@@ -139,24 +139,30 @@ main {
     min-width: 320px;
     height: auto;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-bottom: solid 4px var(--orange);
 }
 
 .main_who_container1 {
     width: 100%;
-    min-width: 288px;
+    min-width: 100%;
     max-width: 900px;
     height: auto;
     margin-top: 15px;
+    text-align: justify;
+    line-height: 15px;
 }
 
 .main_who_container2 {
     width: 100%;
-    min-width: 288px;
+    min-width: 100%;
     max-width: 900px;
     height: auto;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-align: justify;
+    line-height: 15px;
 }
 
 .main_history {
@@ -164,6 +170,8 @@ main {
     min-width: 320px;
     height: auto;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: inline-block;
     background-color: var(--dark-black);
     color: white;
@@ -172,11 +180,13 @@ main {
 
 .main_history--text {
     width: 100%;
-    min-width: 288px;
+    min-width: 100%;
     max-width: 900px;
     height: auto;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: justify;
+    line-height: 15px;
 }
 
 .main_history--text h1 {
@@ -245,17 +255,21 @@ label:hover {
     min-width: 320px;
     height: auto;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: inline-block;
     border-bottom: solid 4px var(--orange);
 }
 
 .main_filosofy--text {
     width: 100%;
-    min-width: 288px;
+    min-width: 100%;
     max-width: 900px;
     height: auto;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: justify;
+    line-height: 15px;
 }
 
 .main_filosofy--img {
@@ -274,6 +288,8 @@ label:hover {
     min-width: 320px;
     height: auto;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: inline-block;
     background-color: var(--dark-black);
     color: white;
@@ -282,11 +298,13 @@ label:hover {
 
 .main_proposito--text {
     width: 100%;
-    min-width: 288px;
+    min-width: 100%;
     max-width: 900px;
     height: auto;
     margin-top: 15px;
     margin-bottom: 10px;
+    text-align: justify;
+    line-height: 15px;
 }
 
 .main_proposito--text h1 {
@@ -298,6 +316,8 @@ label:hover {
     min-width: 320px;
     height: auto;
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-top: 20px;
     border-bottom: solid 4px var(--orange);
 }
@@ -328,6 +348,10 @@ label:hover {
     display: inline-block;
 }
 
+.information-container h2 {
+    font-size: 1.8rem;
+}
+
 .container-1 {
     width: 90%;
     min-width: 90%;
@@ -340,7 +364,7 @@ label:hover {
 .container-1 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    line-height: normal;
+    font-size: 1.2rem;
 }
 
 .container-1 h2 {
